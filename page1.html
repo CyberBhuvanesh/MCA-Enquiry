@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html  >
 <head>
   
@@ -143,6 +143,8 @@
             </div>
         </div>
     </div>
+	
+<span style="visibility: hidden" id="department">
     <div class="container">
         <div class="row main justify-content-center">
             <div class="media-container-column col-12 col-lg-3 col-md-4">
@@ -394,6 +396,7 @@
             </div>
         </div>
     </div>
+	</span>
 </section>
     <section class="cid-ryokahuWAT mbr" id="footer1-w">
         <div class="container">
@@ -450,6 +453,16 @@
     <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
     <script src="assets/ytplayer/jquery.mb.ytplayer.min.js"></script>
     <script src="assets/theme/js/script.js"></script>
+	 <script>
+        function show(i) {
+            document.getElementById(i).style.visibility='visible';
+        }
+        
+        function hide(i) {
+            document.getElementById(i).style.visibility='hidden';
+        }
+       
+        </script>
     <input name="animation" type="hidden">
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
 </body>
